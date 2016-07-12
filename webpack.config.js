@@ -3,7 +3,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    "Object.assign": "./src/Object.assign/index.js"
+    "Object.assign": "./src/Object.assign/index.js",
+    "Array.find": "./src/Array.find/index.js"
   },
   output: {
     path: path.join(__dirname, "dist"),

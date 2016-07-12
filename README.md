@@ -10,6 +10,12 @@
 import 'mdn-polyfills/dist/Object.assign';
 ```
 
+## [Array.find](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/find#Polyfill)
+
+```js
+import 'mdn-polyfills/dist/Array.find';
+```
+
 # Installation
 
 ```
