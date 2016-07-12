@@ -1,6 +1,6 @@
 # Polyfills copied from MDN
 
-> [MDN](https://developer.mozilla.org) polyfills.
+> [MDN](https://developer.mozilla.org) polyfills. Ready to be placed via ES6 imports.
 
 # Installation
 
