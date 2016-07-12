@@ -1,4 +1,4 @@
-export default function assign(target) {
+export function assign(target) {
   if (target == null) {
     throw new TypeError('Cannot convert undefined or null to object');
   }
