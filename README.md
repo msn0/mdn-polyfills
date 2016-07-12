@@ -1,4 +1,4 @@
-# mdn-polyfills
+# Polyfills copied from MDN
 
 > [MDN](https://developer.mozilla.org) polyfills.
 
