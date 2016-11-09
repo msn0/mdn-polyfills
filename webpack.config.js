@@ -4,8 +4,8 @@ const path = require('path');
 module.exports = {
   entry: {
     "Object.assign": "./src/Object.assign/index.js",
-    "Array.find": "./src/Array.find/index.js",
-    "Array.from": "./src/Array.from/index.js"
+    "Array.prototype.find": "./src/Array.prototype.find/index.js",
+    "Array.prototype.from": "./src/Array.prototype.from/index.js"
   },
   output: {
     path: path.join(__dirname, "dist"),
