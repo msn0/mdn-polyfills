@@ -8,8 +8,7 @@ module.exports = {
     "Array.prototype.from": "./src/Array.prototype.from/index.js"
   },
   output: {
-    path: path.join(__dirname, "dist"),
-    filename: "[name]/index.js"
+    filename: "[name].js"
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin({minimize: true})

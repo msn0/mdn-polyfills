@@ -19,13 +19,13 @@ import 'mdn-polyfills/Object.assign';
 ## [Array.find](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/find#Polyfill)
 
 ```js
-import 'mdn-polyfills/dist/Array.prototype.find';
+import 'mdn-polyfills/Array.prototype.find';
 ```
 
 ## [Array.from](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/from#Polyfill)
 
 ```js
-import 'mdn-polyfills/dist/Array.prototype.from';
+import 'mdn-polyfills/Array.prototype.from';
 ```
 
 # License
