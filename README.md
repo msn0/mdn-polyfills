@@ -13,17 +13,21 @@ npm i mdn-polyfills
 ## [Object.assign](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill)
 
 ```js
-import 'mdn-polyfills/dist/Object.assign';
+import 'mdn-polyfills/Object.assign';
 ```
 
 ## [Array.find](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/find#Polyfill)
 
 ```js
-import 'mdn-polyfills/dist/Array.find';
+import 'mdn-polyfills/dist/Array.prototype.find';
 ```
 
 ## [Array.from](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/from#Polyfill)
 
 ```js
-import 'mdn-polyfills/dist/Array.from';
+import 'mdn-polyfills/dist/Array.prototype.from';
 ```
+
+# License
+
+MIT
