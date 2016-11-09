@@ -4,7 +4,7 @@
   "description": "MDN polyfills - Array.from, Array.find, Object.assign, ...",
   "scripts": {
     "transpile": "babel ./src --out-dir ./dist",
-    "prepublish": "npm run transpile && ./node_modules/.bin/webpack"
+    "prepublish": "npm run transpile && webpack"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "Object.assign"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/msn0/mdn-polyfills/issues"
   },
