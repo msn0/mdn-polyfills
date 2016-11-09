@@ -11,7 +11,7 @@ module.exports = {
     filename: "[name].js"
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({minimize: true})
+    new webpack.optimize.UglifyJsPlugin()
   ],
   module: {
 
