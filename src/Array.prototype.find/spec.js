@@ -1,7 +1,7 @@
 import test from 'ava';
 import find from './find';
 
-test('should find object', t => {
+test('should find cherries', t => {
   const inventory = [
     { name: 'apples', quantity: 2 },
     { name: 'bananas', quantity: 0 },
