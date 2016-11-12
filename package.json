@@ -28,5 +28,21 @@
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "webpack": "^1.13.1"
+  },
+  "ava": {
+    "files": [
+      "src/**/spec.js"
+    ],
+    "source": [
+      "src/**/*.js"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "powerAssert": true,
+    "require": [
+      "babel-register",
+      "./setup-browser-env.js"
+    ],
+    "babel": "inherit"
   }
 }
