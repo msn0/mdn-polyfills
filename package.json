@@ -40,8 +40,7 @@
     "failFast": true,
     "powerAssert": true,
     "require": [
-      "babel-register",
-      "./setup-browser-env.js"
+      "babel-register"
     ],
     "babel": "inherit"
   }
