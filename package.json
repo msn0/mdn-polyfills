@@ -4,7 +4,8 @@
   "description": "MDN polyfills - Array.from, Array.find, Object.assign, ...",
   "scripts": {
     "transpile": "babel ./src --out-dir ./dist",
-    "prepublish": "npm run transpile && webpack"
+    "prepublish": "npm run transpile && webpack",
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/msn0/mdn-polyfills#readme",
   "devDependencies": {
+    "ava": "^0.16.0",
     "babel-cli": "^6.10.1",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
