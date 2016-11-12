@@ -1,7 +1,7 @@
 import test from 'ava';
 import assign from './assign';
 
-test('should work assign new properties to object', t => {
+test('should assign new properties to object', t => {
   const foo = { foo: 'foo' };
   const bar = { bar: 'bar' };
 
