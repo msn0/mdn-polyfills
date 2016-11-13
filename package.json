@@ -1,10 +1,9 @@
 {
   "name": "mdn-polyfills",
-  "version": "1.0.0",
-  "description": "MDN polyfills - Array.from, Array.find, Object.assign, ...",
+  "version": "2.0.0",
+  "description": "MDN polyfills",
   "scripts": {
-    "transpile": "babel ./src --out-dir ./dist",
-    "prepublish": "npm run transpile && webpack",
+    "prepublish": "webpack",
     "test": "ava"
   },
   "repository": {
