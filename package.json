@@ -12,9 +12,11 @@
     "url": "git+https://github.com/msn0/mdn-polyfills.git"
   },
   "keywords": [
-    "Array.prototype.from",
-    "Array.prototype.find",
-    "Object.assign"
+    "from",
+    "find",
+    "forEach",
+    "filter",
+    "assign"
   ],
   "author": "",
   "license": "MIT",
