@@ -16,13 +16,13 @@ npm i mdn-polyfills
 import 'mdn-polyfills/Object.assign';
 ```
 
-## [Array.find](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/find#Polyfill)
+## [Array.prototype.find](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/find#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.find';
 ```
 
-## [Array.from](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/from#Polyfill)
+## [Array.prototype.from](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/from#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.from';
