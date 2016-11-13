@@ -28,6 +28,12 @@ import 'mdn-polyfills/Array.prototype.find';
 import 'mdn-polyfills/Array.prototype.from';
 ```
 
+## [Array.prototype.forEach](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#Polyfill)
+
+```js
+import 'mdn-polyfills/Array.prototype.forEach';
+```
+
 # License
 
 MIT
