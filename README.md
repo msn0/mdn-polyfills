@@ -48,4 +48,4 @@ import 'mdn-polyfills/Array.prototype.includes';
 
 # License
 
-MIT
+MIT © [Michał Jezierski](https://github.com/msn0)
