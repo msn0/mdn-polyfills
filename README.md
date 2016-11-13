@@ -5,7 +5,7 @@
 # Installation
 
 ```
-npm i mdn-polyfills
+npm i mdn-polyfills --save
 ```
 
 # Polyfills
