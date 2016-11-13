@@ -15,7 +15,14 @@
     "find",
     "forEach",
     "filter",
-    "assign"
+    "includes",
+    "assign",
+    "array.from",
+    "array.find",
+    "array.forEach",
+    "array.filter",
+    "array.includes",
+    "object.assign"
   ],
   "author": "",
   "license": "MIT",
