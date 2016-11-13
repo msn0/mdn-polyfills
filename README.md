@@ -34,6 +34,12 @@ import 'mdn-polyfills/Array.prototype.from';
 import 'mdn-polyfills/Array.prototype.forEach';
 ```
 
+## [Array.prototype.filter](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter#Polyfill)
+
+```js
+import 'mdn-polyfills/Array.prototype.filter';
+```
+
 # License
 
 MIT
