@@ -10,37 +10,37 @@ npm i mdn-polyfills --save
 
 # Polyfills
 
-## [Object.assign](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill)
+## [Object.assign](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill)
 
 ```js
 import 'mdn-polyfills/Object.assign';
 ```
 
-## [Array.prototype.find](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/find#Polyfill)
+## [Array.prototype.find](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.find';
 ```
 
-## [Array.prototype.from](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/from#Polyfill)
+## [Array.prototype.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.from';
 ```
 
-## [Array.prototype.forEach](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#Polyfill)
+## [Array.prototype.forEach](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.forEach';
 ```
 
-## [Array.prototype.filter](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter#Polyfill)
+## [Array.prototype.filter](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.filter';
 ```
 
-## [Array.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes#Polyfill)
+## [Array.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.includes';
