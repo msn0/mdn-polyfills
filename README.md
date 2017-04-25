@@ -52,6 +52,12 @@ import 'mdn-polyfills/Array.prototype.filter';
 import 'mdn-polyfills/Array.prototype.includes';
 ```
 
+## [Array.of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of#Polyfill)
+
+```js
+import 'mdn-polyfills/Array.of';
+```
+
 # License
 
 MIT © [Michał Jezierski](https://github.com/msn0)
