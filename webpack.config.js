@@ -3,6 +3,7 @@ const webpack = require('webpack');
 module.exports = {
   entry: {
     "Object.assign": "./src/Object.assign/index.js",
+    "Object.create": "./src/Object.create/index.js",
     "Array.prototype.find": "./src/Array.prototype.find/index.js",
     "Array.prototype.from": "./src/Array.prototype.from/index.js",
     "Array.prototype.filter": "./src/Array.prototype.filter/index.js",

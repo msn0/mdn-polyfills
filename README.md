@@ -16,6 +16,12 @@ npm i mdn-polyfills --save
 import 'mdn-polyfills/Object.assign';
 ```
 
+## [Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create#Polyfill)
+
+```js
+import 'mdn-polyfills/Object.create';
+```
+
 ## [Array.prototype.find](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control#Polyfill)
 
 ```js

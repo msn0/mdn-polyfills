@@ -1,6 +1,6 @@
 {
   "name": "mdn-polyfills",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "MDN polyfills",
   "scripts": {
     "prepublish": "webpack",
@@ -22,7 +22,8 @@
     "array.forEach",
     "array.filter",
     "array.includes",
-    "object.assign"
+    "object.assign",
+    "object.create"
   ],
   "author": "",
   "license": "MIT",
