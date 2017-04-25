@@ -1,5 +1,5 @@
 import create from './create';
 
 if (typeof Object.create !== 'function') {
-  Object.create = create();
+    Object.create = create();
 }

@@ -3,6 +3,7 @@
   "version": "2.2.0",
   "description": "MDN polyfills",
   "scripts": {
+    "lint": "eslint .",
     "prepublish": "webpack",
     "test": "ava --tap | tap-nyan"
   },
@@ -35,8 +36,10 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "babel-cli": "^6.10.1",
+    "babel-eslint": "^7.2.3",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
+    "eslint": "^3.19.0",
     "tap-nyan": "0.0.2",
     "webpack": "^1.13.1"
   },

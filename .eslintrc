@@ -1,0 +1,26 @@
+{
+  rules: {
+    'comma-dangle': ['error', 'never'],
+    'comma-spacing': ['error', {
+      'before': false,
+      'after': true
+    }],
+    'eqeqeq': 'warn',
+    'indent': ['error', 4, { 'SwitchCase': 1 }],
+    'linebreak-style': ['error', 'unix'],
+    'max-len': ['warn', 120, 4, { 'ignoreUrls': true }],
+    'no-undef': ['error'],
+    'no-unused-vars': ['error'],
+    'no-use-before-define': ['error', { functions: false }],
+    'object-curly-spacing': ['error', 'always'],
+    'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
+    'semi': ['error', 'always'],
+    'space-infix-ops': ['error']
+  },
+  env: {
+      'es6': true,
+      'node': true,
+      'browser': true
+  },
+  parser: 'babel-eslint'
+}

@@ -1,3 +1,3 @@
 export default function () {
-  return Array.prototype.slice.call(arguments);
+    return Array.prototype.slice.call(arguments);
 };
