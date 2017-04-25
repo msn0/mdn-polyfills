@@ -3,8 +3,8 @@
   "version": "2.2.0",
   "description": "MDN polyfills",
   "scripts": {
-    "lint": "eslint .",
-    "prepublish": "webpack",
+    "lint": "eslint src/",
+    "prepublish": "npm run lint && webpack -p",
     "test": "ava --tap | tap-nyan"
   },
   "repository": {
@@ -34,14 +34,14 @@
   },
   "homepage": "https://github.com/msn0/mdn-polyfills#readme",
   "devDependencies": {
-    "ava": "^0.16.0",
-    "babel-cli": "^6.10.1",
+    "ava": "^0.19.1",
+    "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.9.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
     "eslint": "^3.19.0",
-    "tap-nyan": "0.0.2",
-    "webpack": "^1.13.1"
+    "tap-nyan": "^1.1.0",
+    "webpack": "^2.4.1"
   },
   "ava": {
     "files": [

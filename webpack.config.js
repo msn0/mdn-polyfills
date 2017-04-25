@@ -1,5 +1,3 @@
-const webpack = require('webpack');
-
 module.exports = {
     entry: {
         'Object.assign': './src/Object.assign/index.js',
@@ -14,14 +12,11 @@ module.exports = {
     output: {
         filename: '[name].js'
     },
-    plugins: [
-        new webpack.optimize.UglifyJsPlugin()
-    ],
     module: {
-        loaders: [{
+        rules: [{
             test: /\.js$/,
             exclude: /node_modules/,
-            loader: 'babel'
+            use: ['babel-loader']
         }]
     }
 };
