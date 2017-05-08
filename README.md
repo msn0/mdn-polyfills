@@ -13,49 +13,49 @@ npm i mdn-polyfills --save
 ## [Object.assign](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill)
 
 ```js
-import 'mdn-polyfills/Object.assign';
+import 'mdn-polyfills/Object.assign'; // 333 bytes
 ```
 
 ## [Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create#Polyfill)
 
 ```js
-import 'mdn-polyfills/Object.create';
+import 'mdn-polyfills/Object.create'; // 328 bytes
 ```
 
 ## [Array.prototype.find](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.find';
+import 'mdn-polyfills/Array.prototype.find'; // 361 bytes
 ```
 
 ## [Array.prototype.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.from';
+import 'mdn-polyfills/Array.prototype.from'; // 840 bytes
 ```
 
 ## [Array.prototype.forEach](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.forEach';
+import 'mdn-polyfills/Array.prototype.forEach'; // 364 bytes
 ```
 
 ## [Array.prototype.filter](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.filter';
+import 'mdn-polyfills/Array.prototype.filter'; // 352 bytes
 ```
 
 ## [Array.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.includes';
+import 'mdn-polyfills/Array.prototype.includes'; // 388 bytes
 ```
 
 ## [Array.of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.of';
+import 'mdn-polyfills/Array.of'; // 115 bytes
 ```
 
 # License
