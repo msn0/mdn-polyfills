@@ -1,6 +1,6 @@
 # Polyfills copied from MDN [![Build Status](https://travis-ci.org/msn0/mdn-polyfills.svg?branch=master)](http://travis-ci.org/msn0/mdn-polyfills)
 
-> [MDN](https://developer.mozilla.org) polyfills. Ready to be used as ES side-effect imports. Built with Rollup, minimized, mangled and extremally small :)
+> [MDN](https://developer.mozilla.org) polyfills. A collection of side-effect ECMAScript modules. Built with Rollup, minimized, mangled and extremally small :)
 
 # Installation
 
