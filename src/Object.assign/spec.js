@@ -16,4 +16,3 @@ test('should clone object', t => {
     t.not(foo, bar);
     t.deepEqual(foo, bar);
 });
-
