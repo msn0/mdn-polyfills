@@ -27,7 +27,8 @@
     "array.includes",
     "array.of",
     "object.assign",
-    "object.create"
+    "object.create",
+    "repeat"
   ],
   "author": "",
   "license": "MIT",
