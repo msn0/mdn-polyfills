@@ -28,7 +28,10 @@
     "array.of",
     "object.assign",
     "object.create",
-    "repeat"
+    "repeat",
+    "polyfills",
+    "polyfill",
+    "mdn"
   ],
   "author": "",
   "license": "MIT",
