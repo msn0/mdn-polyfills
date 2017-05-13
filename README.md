@@ -61,7 +61,7 @@ import 'mdn-polyfills/Array.of'; // 115 bytes
 ## [String.prototype.repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat#Polyfill)
 
 ```js
-import 'mdn-polyfills/String.prototype.repeat'; // 115 bytes
+import 'mdn-polyfills/String.prototype.repeat'; // 540 bytes
 ```
 
 # License
