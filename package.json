@@ -1,6 +1,6 @@
 {
   "name": "mdn-polyfills",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "MDN polyfills",
   "scripts": {
     "lint": "eslint src/",
@@ -39,11 +39,10 @@
   "devDependencies": {
     "ava": "^0.19.1",
     "babel-cli": "^6.24.1",
-    "babel-eslint": "^7.2.3",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-es2015": "^6.24.1",
     "babelrc-rollup": "^3.0.0",
-    "eslint": "^3.19.0",
+    "eslint-config-helmut": "^1.2.0",
     "rollup": "^0.41.6",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-uglify": "^1.0.2",
