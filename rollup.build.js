@@ -30,3 +30,4 @@ rollup(input('./src/Array.prototype.forEach/index.js')).then(output('./Array.pro
 rollup(input('./src/Array.prototype.includes/index.js')).then(output('./Array.prototype.includes.js'));
 rollup(input('./src/Array.of/index.js')).then(output('./Array.of.js'));
 rollup(input('./src/String.prototype.repeat/index.js')).then(output('./String.prototype.repeat.js'));
+rollup(input('./src/String.prototype.startsWith/index.js')).then(output('./String.prototype.startsWith.js'));

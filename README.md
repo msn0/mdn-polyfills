@@ -64,6 +64,12 @@ import 'mdn-polyfills/Array.of'; // 115 bytes
 import 'mdn-polyfills/String.prototype.repeat'; // 540 bytes
 ```
 
+## [String.prototype.startsWith](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith#Polyfill)
+
+```js
+import 'mdn-polyfills/String.prototype.startsWith'; // 153 bytes
+```
+
 # License
 
 MIT © [Michał Jezierski](https://github.com/msn0)

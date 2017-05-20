@@ -1,6 +1,6 @@
 {
   "name": "mdn-polyfills",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "MDN polyfills",
   "scripts": {
     "lint": "eslint src/",
@@ -29,6 +29,7 @@
     "object.assign",
     "object.create",
     "repeat",
+    "startsWith",
     "polyfills",
     "polyfill",
     "mdn"
