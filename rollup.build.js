@@ -26,6 +26,7 @@ rollup(input('./src/Object.create/index.js')).then(output('./Object.create.js'))
 rollup(input('./src/Array.prototype.find/index.js')).then(output('./Array.prototype.find.js'));
 rollup(input('./src/Array.prototype.from/index.js')).then(output('./Array.prototype.from.js'));
 rollup(input('./src/Array.prototype.filter/index.js')).then(output('./Array.prototype.filter.js'));
+rollup(input('./src/Array.prototype.findIndex/index.js')).then(output('./Array.prototype.findIndex.js'));
 rollup(input('./src/Array.prototype.forEach/index.js')).then(output('./Array.prototype.forEach.js'));
 rollup(input('./src/Array.prototype.includes/index.js')).then(output('./Array.prototype.includes.js'));
 rollup(input('./src/Array.of/index.js')).then(output('./Array.of.js'));

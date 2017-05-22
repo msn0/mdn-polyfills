@@ -46,6 +46,12 @@ import 'mdn-polyfills/Array.prototype.forEach'; // 364 bytes
 import 'mdn-polyfills/Array.prototype.filter'; // 352 bytes
 ```
 
+## [Array.prototype.findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex?v=control#Polyfill)
+
+```js
+import 'mdn-polyfills/Array.prototype.findIndex'; // 398 bytes
+```
+
 ## [Array.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?v=control#Polyfill)
 
 ```js

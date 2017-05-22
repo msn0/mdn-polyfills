@@ -1,6 +1,6 @@
 {
   "name": "mdn-polyfills",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "MDN polyfills",
   "scripts": {
     "lint": "eslint src/",
@@ -24,6 +24,7 @@
     "array.find",
     "array.forEach",
     "array.filter",
+    "array.findIndex",
     "array.includes",
     "array.of",
     "object.assign",
