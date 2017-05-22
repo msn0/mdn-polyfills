@@ -2,75 +2,75 @@
 
 > [MDN](https://developer.mozilla.org) polyfills. A collection of side-effect ECMAScript modules. Minimized, mangled and extremally small thanks to [Rollup](http://rollupjs.org) - next-generation ES6 module bundler.
 
-# Installation
+## Installation
 
 ```
 npm i mdn-polyfills --save
 ```
 
-# Polyfills
+## Polyfills
 
-## [Object.assign](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill)
+### [Object.assign](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill)
 
 ```js
 import 'mdn-polyfills/Object.assign'; // 333 bytes
 ```
 
-## [Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create#Polyfill)
+### [Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create#Polyfill)
 
 ```js
 import 'mdn-polyfills/Object.create'; // 328 bytes
 ```
 
-## [Array.prototype.find](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control#Polyfill)
+### [Array.prototype.find](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.find'; // 361 bytes
 ```
 
-## [Array.prototype.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
+### [Array.prototype.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.from'; // 840 bytes
 ```
 
-## [Array.prototype.forEach](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?v=control#Polyfill)
+### [Array.prototype.forEach](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.forEach'; // 364 bytes
 ```
 
-## [Array.prototype.filter](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter?v=control#Polyfill)
+### [Array.prototype.filter](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.filter'; // 352 bytes
 ```
 
-## [Array.prototype.findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex?v=control#Polyfill)
+### [Array.prototype.findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.findIndex'; // 398 bytes
 ```
 
-## [Array.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?v=control#Polyfill)
+### [Array.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.includes'; // 388 bytes
 ```
 
-## [Array.of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of#Polyfill)
+### [Array.of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.of'; // 115 bytes
 ```
 
-## [String.prototype.repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat#Polyfill)
+### [String.prototype.repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat#Polyfill)
 
 ```js
 import 'mdn-polyfills/String.prototype.repeat'; // 540 bytes
 ```
 
-## [String.prototype.startsWith](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith#Polyfill)
+### [String.prototype.startsWith](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith#Polyfill)
 
 ```js
 import 'mdn-polyfills/String.prototype.startsWith'; // 153 bytes
