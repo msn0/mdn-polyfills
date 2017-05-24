@@ -76,6 +76,12 @@ import 'mdn-polyfills/String.prototype.repeat'; // 540 bytes
 import 'mdn-polyfills/String.prototype.startsWith'; // 153 bytes
 ```
 
+### [Function.prototype.bind](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind#Polyfill)
+
+```js
+import 'mdn-polyfills/Function.prototype.bind'; // 463 bytes
+```
+
 # License
 
 MIT © [Michał Jezierski](https://github.com/msn0)

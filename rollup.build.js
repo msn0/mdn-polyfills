@@ -32,3 +32,4 @@ rollup(input('./src/Array.prototype.includes/index.js')).then(output('./Array.pr
 rollup(input('./src/Array.of/index.js')).then(output('./Array.of.js'));
 rollup(input('./src/String.prototype.repeat/index.js')).then(output('./String.prototype.repeat.js'));
 rollup(input('./src/String.prototype.startsWith/index.js')).then(output('./String.prototype.startsWith.js'));
+rollup(input('./src/Function.prototype.bind/index.js')).then(output('./Function.prototype.bind.js'));

@@ -33,6 +33,7 @@
     "startsWith",
     "polyfills",
     "polyfill",
+    "bind",
     "mdn"
   ],
   "author": "",
