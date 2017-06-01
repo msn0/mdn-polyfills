@@ -82,6 +82,12 @@ import 'mdn-polyfills/String.prototype.startsWith'; // 153 bytes
 import 'mdn-polyfills/Function.prototype.bind'; // 463 bytes
 ```
 
+### [NodeList.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)
+
+```js
+import 'mdn-polyfills/NodeList.forEach'; // 194 bytes
+```
+
 # License
 
 MIT © [Michał Jezierski](https://github.com/msn0)
