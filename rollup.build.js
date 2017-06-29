@@ -34,3 +34,4 @@ rollup(input('./src/String.prototype.repeat/index.js')).then(output('./String.pr
 rollup(input('./src/String.prototype.startsWith/index.js')).then(output('./String.prototype.startsWith.js'));
 rollup(input('./src/Function.prototype.bind/index.js')).then(output('./Function.prototype.bind.js'));
 rollup(input('./src/NodeList.forEach/index.js')).then(output('./NodeList.forEach.js'));
+rollup(input('./src/Element.closest/index.js')).then(output('./Element.closest.js'));
