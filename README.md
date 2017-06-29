@@ -88,6 +88,12 @@ import 'mdn-polyfills/Function.prototype.bind'; // 463 bytes
 import 'mdn-polyfills/NodeList.forEach'; // 194 bytes
 ```
 
+### [Element.closest](https://developer.mozilla.org/pl/docs/Web/API/Element/closest#Polyfill)
+
+```js
+import 'mdn-polyfills/Element.closest';
+```
+
 # License
 
 MIT © [Michał Jezierski](https://github.com/msn0)
