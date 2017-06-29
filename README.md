@@ -91,7 +91,7 @@ import 'mdn-polyfills/NodeList.forEach'; // 194 bytes
 ### [Element.closest](https://developer.mozilla.org/pl/docs/Web/API/Element/closest#Polyfill)
 
 ```js
-import 'mdn-polyfills/Element.closest';
+import 'mdn-polyfills/Element.closest'; // 277 bytes
 ```
 
 # License
