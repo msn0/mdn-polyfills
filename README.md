@@ -28,10 +28,10 @@ import 'mdn-polyfills/Object.create'; // 328 bytes
 import 'mdn-polyfills/Array.prototype.find'; // 361 bytes
 ```
 
-### [Array.prototype.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
+### [Array.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.from'; // 840 bytes
+import 'mdn-polyfills/Array.from'; // 840 bytes
 ```
 
 ### [Array.prototype.forEach](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?v=control#Polyfill)

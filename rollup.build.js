@@ -24,7 +24,7 @@ function output(dest) {
 rollup(input('./src/Object.assign/index.js')).then(output('./Object.assign.js'));
 rollup(input('./src/Object.create/index.js')).then(output('./Object.create.js'));
 rollup(input('./src/Array.prototype.find/index.js')).then(output('./Array.prototype.find.js'));
-rollup(input('./src/Array.prototype.from/index.js')).then(output('./Array.prototype.from.js'));
+rollup(input('./src/Array.from/index.js')).then(output('./Array.from.js'));
 rollup(input('./src/Array.prototype.filter/index.js')).then(output('./Array.prototype.filter.js'));
 rollup(input('./src/Array.prototype.findIndex/index.js')).then(output('./Array.prototype.findIndex.js'));
 rollup(input('./src/Array.prototype.forEach/index.js')).then(output('./Array.prototype.forEach.js'));
