@@ -36,3 +36,4 @@ rollup(input('./src/String.prototype.includes/index.js')).then(output('./String.
 rollup(input('./src/Function.prototype.bind/index.js')).then(output('./Function.prototype.bind.js'));
 rollup(input('./src/NodeList.forEach/index.js')).then(output('./NodeList.forEach.js'));
 rollup(input('./src/Element.closest/index.js')).then(output('./Element.closest.js'));
+rollup(input('./src/Element.prototype.matches/index.js')).then(output('./Element.prototype.matches.js'));

@@ -100,6 +100,12 @@ import 'mdn-polyfills/NodeList.forEach'; // 194 bytes
 import 'mdn-polyfills/Element.closest'; // 277 bytes
 ```
 
+### [Element.prototype.matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill)
+
+```js
+import 'mdn-polyfills/Element.prototype.matches'; // 161 bytes
+```
+
 # License
 
 MIT © [Michał Jezierski](https://github.com/msn0)
