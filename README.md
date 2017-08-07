@@ -22,17 +22,24 @@ import 'mdn-polyfills/Object.assign'; // 330 bytes
 import 'mdn-polyfills/Object.create'; // 328 bytes
 ```
 
+### [Array.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
+
+```js
+import 'mdn-polyfills/Array.from'; // 840 bytes
+```
+
+### [Array.of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of#Polyfill)
+
+```js
+import 'mdn-polyfills/Array.of'; // 107 bytes
+```
+
 ### [Array.prototype.find](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control#Polyfill)
 
 ```js
 import 'mdn-polyfills/Array.prototype.find'; // 358 bytes
 ```
 
-### [Array.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
-
-```js
-import 'mdn-polyfills/Array.from'; // 840 bytes
-```
 
 ### [Array.prototype.forEach](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?v=control#Polyfill)
 
@@ -56,12 +63,6 @@ import 'mdn-polyfills/Array.prototype.findIndex'; // 390 bytes
 
 ```js
 import 'mdn-polyfills/Array.prototype.includes'; // 380 bytes
-```
-
-### [Array.of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of#Polyfill)
-
-```js
-import 'mdn-polyfills/Array.of'; // 107 bytes
 ```
 
 ### [String.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/includes#Polyfill)
