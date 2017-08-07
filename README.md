@@ -88,10 +88,10 @@ import 'mdn-polyfills/String.prototype.startsWith'; // 153 bytes
 import 'mdn-polyfills/Function.prototype.bind'; // 463 bytes
 ```
 
-### [NodeList.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)
+### [NodeList.prototype.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)
 
 ```js
-import 'mdn-polyfills/NodeList.forEach'; // 194 bytes
+import 'mdn-polyfills/NodeList.prototype.forEach'; // 194 bytes
 ```
 
 ### [Element.prototype.closest](https://developer.mozilla.org/pl/docs/Web/API/Element/closest#Polyfill)
