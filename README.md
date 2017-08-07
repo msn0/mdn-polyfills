@@ -64,6 +64,12 @@ import 'mdn-polyfills/Array.prototype.includes'; // 388 bytes
 import 'mdn-polyfills/Array.of'; // 115 bytes
 ```
 
+### [String.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/includes#Polyfill)
+
+```js
+import 'mdn-polyfills/String.prototype.includes'; // 181 bytes
+```
+
 ### [String.prototype.repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat#Polyfill)
 
 ```js
