@@ -64,6 +64,12 @@ import 'mdn-polyfills/Array.prototype.includes'; // 388 bytes
 import 'mdn-polyfills/Array.of'; // 115 bytes
 ```
 
+### [String.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/includes#Polyfill)
+
+```js
+import 'mdn-polyfills/String.prototype.includes'; // 181 bytes
+```
+
 ### [String.prototype.repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat#Polyfill)
 
 ```js
@@ -82,16 +88,22 @@ import 'mdn-polyfills/String.prototype.startsWith'; // 153 bytes
 import 'mdn-polyfills/Function.prototype.bind'; // 463 bytes
 ```
 
-### [NodeList.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)
+### [NodeList.prototype.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)
 
 ```js
-import 'mdn-polyfills/NodeList.forEach'; // 194 bytes
+import 'mdn-polyfills/NodeList.prototype.forEach'; // 194 bytes
 ```
 
-### [Element.closest](https://developer.mozilla.org/pl/docs/Web/API/Element/closest#Polyfill)
+### [Element.prototype.closest](https://developer.mozilla.org/pl/docs/Web/API/Element/closest#Polyfill)
 
 ```js
-import 'mdn-polyfills/Element.closest'; // 277 bytes
+import 'mdn-polyfills/Element.prototype.closest'; // 277 bytes
+```
+
+### [Element.prototype.matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill)
+
+```js
+import 'mdn-polyfills/Element.prototype.matches'; // 161 bytes
 ```
 
 # License

@@ -1,4 +1,4 @@
-export default function (s) {
+export default function(s) {
     var matches = (this.document || this.ownerDocument).querySelectorAll(s),
         i,
         el = this;
