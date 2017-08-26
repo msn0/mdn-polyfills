@@ -5,19 +5,19 @@ const rollup = require('rollup').rollup;
 
 const defaultConfig = {
     format: 'iife',
-    moduleName: 'Polyfill'
+    name: 'Polyfill'
 };
 
-function input(entry) {
+function input(input) {
     return {
-        entry,
+        input,
         plugins: [ babel(babelrc()), uglify() ]
     };
 }
 
-function output(dest) {
+function output(file) {
     return function (bundle) {
-        bundle.write(Object.assign({}, defaultConfig, { dest }));
+        bundle.write(Object.assign({}, defaultConfig, { file }));
     };
 }
 
