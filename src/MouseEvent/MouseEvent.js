@@ -1,4 +1,10 @@
-export default function (window) {
+export default function () {
+    try {
+        new MouseEvent('test');
+        return false; // No need to polyfill
+    } catch (e) {
+        // Need to polyfill - fall through
+    }
 
     // Polyfills DOM4 MouseEvent
     var MouseEvent = function (eventType, params) {
@@ -9,6 +15,5 @@ export default function (window) {
     }
 
     MouseEvent.prototype = Event.prototype;
-
-    return MouseEvent;
+    window.MouseEvent = MouseEvent;
 }
