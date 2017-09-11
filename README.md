@@ -95,7 +95,7 @@ import 'mdn-polyfills/Function.prototype.bind'; // 455 bytes
 import 'mdn-polyfills/NodeList.prototype.forEach'; // 186 bytes
 ```
 
-### [Element.prototype.closest](https://developer.mozilla.org/pl/docs/Web/API/Element/closest#Polyfill)
+### [Element.prototype.closest](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill)
 
 ```js
 import 'mdn-polyfills/Element.prototype.closest'; // 269 bytes
