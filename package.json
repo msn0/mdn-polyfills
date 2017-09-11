@@ -1,6 +1,6 @@
 {
   "name": "mdn-polyfills",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "MDN polyfills",
   "scripts": {
     "lint": "eslint src/",
@@ -42,6 +42,7 @@
     "Function.prototype.bind",
     "Element.prototype.closest",
     "Element.prototype.matches",
+    "MouseEvent",
     "polyfills",
     "polyfill",
     "mdn"

@@ -107,6 +107,12 @@ import 'mdn-polyfills/Element.prototype.closest'; // 269 bytes
 import 'mdn-polyfills/Element.prototype.matches'; // 161 bytes
 ```
 
+### [MouseEvent](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/MouseEvent#Polyfill)
+
+```js
+import 'mdn-polyfills/MouseEvent'; // 312 bytes
+```
+
 # License
 
 MIT © [Michał Jezierski](https://github.com/msn0)

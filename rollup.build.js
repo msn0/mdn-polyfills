@@ -37,3 +37,4 @@ rollup(input('./src/Function.prototype.bind/index.js')).then(output('./Function.
 rollup(input('./src/NodeList.prototype.forEach/index.js')).then(output('./NodeList.prototype.forEach.js'));
 rollup(input('./src/Element.prototype.closest/index.js')).then(output('./Element.prototype.closest.js'));
 rollup(input('./src/Element.prototype.matches/index.js')).then(output('./Element.prototype.matches.js'));
+rollup(input('./src/MouseEvent/index.js')).then(output('./MouseEvent.js'));
