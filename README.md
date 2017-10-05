@@ -83,6 +83,12 @@ import 'mdn-polyfills/String.prototype.repeat'; // 532 bytes
 import 'mdn-polyfills/String.prototype.startsWith'; // 145 bytes
 ```
 
+### [String.prototype.endsWith](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith#Polyfill)
+
+```js
+import 'mdn-polyfills/String.prototype.endsWith'; // 176 bytes
+```
+
 ### [Function.prototype.bind](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind#Polyfill)
 
 ```js

@@ -1,6 +1,6 @@
 {
   "name": "mdn-polyfills",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "description": "MDN polyfills",
   "scripts": {
     "lint": "eslint src/",
@@ -23,6 +23,7 @@
     "includes",
     "repeat",
     "startsWith",
+    "endsWith",
     "bind",
     "closest",
     "matches",
@@ -38,6 +39,7 @@
     "String.prototype.includes",
     "String.prototype.repeat",
     "String.prototype.startsWith",
+    "String.prototype.endsWith",
     "NodeList.prototype.forEach",
     "Function.prototype.bind",
     "Element.prototype.closest",
