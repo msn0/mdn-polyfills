@@ -24,6 +24,12 @@ import 'mdn-polyfills/Object.assign'; // 330 bytes
 import 'mdn-polyfills/Object.create'; // 328 bytes
 ```
 
+### [Object.entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
+```js
+import 'mdn-polyfills/Object.entries'; // 179 bytes
+```
+
 ### [Array.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
 
 ```js
