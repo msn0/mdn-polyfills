@@ -89,6 +89,18 @@ import 'mdn-polyfills/String.prototype.startsWith'; // 145 bytes
 import 'mdn-polyfills/String.prototype.endsWith'; // 176 bytes
 ```
 
+### [String.prototype.padStart](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart#Polyfill)
+
+```js
+import 'mdn-polyfills/String.prototype.padStart'; // 176 bytes
+```
+
+### [String.prototype.padEnd](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd#Polyfill)
+
+```js
+import 'mdn-polyfills/String.prototype.padEnd'; // 176 bytes
+```
+
 ### [Function.prototype.bind](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind#Polyfill)
 
 ```js
@@ -117,6 +129,12 @@ import 'mdn-polyfills/Element.prototype.matches'; // 161 bytes
 
 ```js
 import 'mdn-polyfills/MouseEvent'; // 312 bytes
+```
+
+### [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill)
+
+```js
+import 'mdn-polyfills/CustomEvent'; // 312 bytes
 ```
 
 # License

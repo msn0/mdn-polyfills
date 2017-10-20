@@ -3,9 +3,9 @@ import find from './find';
 
 test('should find cherries', t => {
     const inventory = [
-    { name: 'apples', quantity: 2 },
-    { name: 'bananas', quantity: 0 },
-    { name: 'cherries', quantity: 5 }
+        { name: 'apples', quantity: 2 },
+        { name: 'bananas', quantity: 0 },
+        { name: 'cherries', quantity: 5 }
     ];
 
     t.deepEqual(find.call(inventory, findCherries), { name: 'cherries', quantity: 5 });

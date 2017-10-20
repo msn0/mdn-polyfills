@@ -15,11 +15,11 @@ export default function (fun/*, thisArg*/) {
         if (i in t) {
             var val = t[i];
 
-      // NOTE: Technically this should Object.defineProperty at
-      //       the next index, as push can be affected by
-      //       properties on Object.prototype and Array.prototype.
-      //       But that method's new, and collisions should be
-      //       rare, so use the more-compatible alternative.
+            // NOTE: Technically this should Object.defineProperty at
+            //       the next index, as push can be affected by
+            //       properties on Object.prototype and Array.prototype.
+            //       But that method's new, and collisions should be
+            //       rare, so use the more-compatible alternative.
             if (fun.call(thisArg, val, i, t)) {
                 res.push(val);
             }
