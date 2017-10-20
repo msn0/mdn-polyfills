@@ -5,9 +5,9 @@ export default function find(predicate) {
     if (typeof predicate !== 'function') {
         throw new TypeError('predicate must be a function');
     }
-    let list = Object(this);
-    let length = list.length >>> 0;
-    let thisArg = arguments[1];
+    const list = Object(this);
+    const length = list.length >>> 0;
+    const thisArg = arguments[1];
     let value;
 
     for (let i = 0; i < length; i++) {

@@ -10,9 +10,9 @@ export default function (oThis) {
         fNOP    = function() {},
         fBound  = function() {
             return fToBind.apply(this instanceof fNOP
-               ? this
-               : oThis,
-               aArgs.concat(Array.prototype.slice.call(arguments)));
+                ? this
+                : oThis,
+            aArgs.concat(Array.prototype.slice.call(arguments)));
         };
 
     if (this.prototype) {
