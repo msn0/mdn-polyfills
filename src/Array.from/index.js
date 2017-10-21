@@ -74,6 +74,9 @@ if (!Array.from) {
                 }
                 k += 1;
             }
+
+
+            
             // 18. Let putStatus be Put(A, "length", len, true).
             A.length = len;
             // 20. Return A.
