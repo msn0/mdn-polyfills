@@ -1,6 +1,6 @@
 {
   "name": "mdn-polyfills",
-  "version": "5.3.0",
+  "version": "5.4.0",
   "description": "MDN polyfills",
   "scripts": {
     "lint": "eslint src/",
