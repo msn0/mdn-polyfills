@@ -5,7 +5,8 @@ const rollup = require('rollup').rollup;
 
 const defaultConfig = {
     format: 'iife',
-    name: 'Polyfill'
+    name: 'Polyfill',
+    strict: false
 };
 
 function input(input) {
