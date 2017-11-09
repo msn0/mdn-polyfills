@@ -115,6 +115,12 @@ import 'mdn-polyfills/String.prototype.padEnd'; // 220 bytes
 import 'mdn-polyfills/Function.prototype.bind'; // 427 bytes
 ```
 
+### [Node.prototype.append](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append#Polyfill)
+
+```js
+import 'mdn-polyfills/Node.prototype.append'; // 433 bytes
+```
+
 ### [NodeList.prototype.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)
 
 ```js
