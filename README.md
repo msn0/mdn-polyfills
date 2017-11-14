@@ -153,4 +153,5 @@ import 'mdn-polyfills/CustomEvent'; // 288 bytes
 
 # License
 
-MIT © [Michał Jezierski](https://github.com/msn0)
+The mdn-polyfills as a module is licensed under MIT © [Michał Jezierski](https://github.com/msn0)
+The polyfills are licensed under https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses
