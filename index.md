@@ -115,6 +115,12 @@ import 'mdn-polyfills/String.prototype.padEnd'; // 220 bytes
 import 'mdn-polyfills/Function.prototype.bind'; // 427 bytes
 ```
 
+### [Node.prototype.append](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append#Polyfill)
+
+```js
+import 'mdn-polyfills/Node.prototype.append'; // 433 bytes
+```
+
 ### [NodeList.prototype.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)
 
 ```js
@@ -147,4 +153,5 @@ import 'mdn-polyfills/CustomEvent'; // 288 bytes
 
 # License
 
-MIT © [Michał Jezierski](https://github.com/msn0)
+The mdn-polyfills as a module is licensed under MIT © [Michał Jezierski](https://github.com/msn0)<br/>
+Polyfills are licensed under https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses
