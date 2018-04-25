@@ -21,7 +21,7 @@ import 'mdn-polyfills/Object.assign'; // 317 bytes
 ### [Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create#Polyfill)
 
 ```js
-import 'mdn-polyfills/Object.create'; // 300 bytes
+import 'mdn-polyfills/Object.create'; // 315 bytes
 ```
 
 ### [Object.entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
@@ -33,13 +33,13 @@ import 'mdn-polyfills/Object.entries'; // 166 bytes
 ### [Array.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.from'; // 812 bytes
+import 'mdn-polyfills/Array.from'; // 811 bytes
 ```
 
 ### [Array.of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.of'; // 79 bytes
+import 'mdn-polyfills/Array.of'; // 94 bytes
 ```
 
 ### [Array.prototype.find](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control#Polyfill)
@@ -52,49 +52,49 @@ import 'mdn-polyfills/Array.prototype.find'; // 345 bytes
 ### [Array.prototype.forEach](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.forEach'; // 328 bytes
+import 'mdn-polyfills/Array.prototype.forEach'; // 343 bytes
 ```
 
 ### [Array.prototype.filter](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.filter'; // 316 bytes
+import 'mdn-polyfills/Array.prototype.filter'; // 331 bytes
 ```
 
 ### [Array.prototype.findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.findIndex'; // 362 bytes
+import 'mdn-polyfills/Array.prototype.findIndex'; // 377 bytes
 ```
 
 ### [Array.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?v=control#Polyfill)
 
 ```js
-import 'mdn-polyfills/Array.prototype.includes'; // 352 bytes
+import 'mdn-polyfills/Array.prototype.includes'; // 361 bytes
 ```
 
 ### [String.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/includes#Polyfill)
 
 ```js
-import 'mdn-polyfills/String.prototype.includes'; // 166 bytes
+import 'mdn-polyfills/String.prototype.includes'; // 153 bytes
 ```
 
 ### [String.prototype.repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat#Polyfill)
 
 ```js
-import 'mdn-polyfills/String.prototype.repeat'; // 504 bytes
+import 'mdn-polyfills/String.prototype.repeat'; // 519 bytes
 ```
 
 ### [String.prototype.startsWith](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith#Polyfill)
 
 ```js
-import 'mdn-polyfills/String.prototype.startsWith'; // 117 bytes
+import 'mdn-polyfills/String.prototype.startsWith'; // 132 bytes
 ```
 
 ### [String.prototype.endsWith](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith#Polyfill)
 
 ```js
-import 'mdn-polyfills/String.prototype.endsWith'; // 148 bytes
+import 'mdn-polyfills/String.prototype.endsWith'; // 163 bytes
 ```
 
 ### [String.prototype.padStart](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart#Polyfill)
@@ -112,7 +112,7 @@ import 'mdn-polyfills/String.prototype.padEnd'; // 220 bytes
 ### [Function.prototype.bind](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind#Polyfill)
 
 ```js
-import 'mdn-polyfills/Function.prototype.bind'; // 427 bytes
+import 'mdn-polyfills/Function.prototype.bind'; // 442 bytes
 ```
 
 ### [Node.prototype.append](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append#Polyfill)
@@ -124,13 +124,13 @@ import 'mdn-polyfills/Node.prototype.append'; // 433 bytes
 ### [NodeList.prototype.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)
 
 ```js
-import 'mdn-polyfills/NodeList.prototype.forEach'; // 158 bytes
+import 'mdn-polyfills/NodeList.prototype.forEach'; // 173 bytes
 ```
 
 ### [Element.prototype.closest](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill)
 
 ```js
-import 'mdn-polyfills/Element.prototype.closest'; // 241 bytes
+import 'mdn-polyfills/Element.prototype.closest'; // 256 bytes
 ```
 
 ### [Element.prototype.matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill)
@@ -142,13 +142,13 @@ import 'mdn-polyfills/Element.prototype.matches'; // 133 bytes
 ### [MouseEvent](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/MouseEvent#Polyfill)
 
 ```js
-import 'mdn-polyfills/MouseEvent'; // 284 bytes
+import 'mdn-polyfills/MouseEvent'; // 299 bytes
 ```
 
 ### [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill)
 
 ```js
-import 'mdn-polyfills/CustomEvent'; // 288 bytes
+import 'mdn-polyfills/CustomEvent'; // 303 bytes
 ```
 
 # License
