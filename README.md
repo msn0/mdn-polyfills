@@ -73,6 +73,12 @@ import 'mdn-polyfills/Array.prototype.findIndex'; // 377 bytes
 import 'mdn-polyfills/Array.prototype.includes'; // 361 bytes
 ```
 
+### [Array.prototype.some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some#Polyfill)
+
+```js
+import 'mdn-polyfills/Array.prototype.some'; // 232 bytes
+```
+
 ### [String.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/includes#Polyfill)
 
 ```js
