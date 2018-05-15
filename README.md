@@ -130,7 +130,7 @@ import 'mdn-polyfills/Node.prototype.append'; // 433 bytes
 ### [Node.prototype.children](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children#Polyfill)
 
 ```js
-import 'mdn-polyfills/Node.prototype.children'; // 157 bytes
+import 'mdn-polyfills/Node.prototype.children'; // 245 bytes
 ```
 
 ### [NodeList.prototype.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)
