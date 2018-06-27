@@ -44,6 +44,7 @@ rollup(input('./src/Node.prototype.append/index.js')).then(output('./Node.protot
 rollup(input('./src/Node.prototype.children/index.js')).then(output('./Node.prototype.children.js'));
 rollup(input('./src/NodeList.prototype.forEach/index.js')).then(output('./NodeList.prototype.forEach.js'));
 rollup(input('./src/Element.prototype.closest/index.js')).then(output('./Element.prototype.closest.js'));
+rollup(input('./src/Element.prototype.toggleAttribute/index.js')).then(output('./Element.prototype.toggleAttribute.js'));
 rollup(input('./src/Element.prototype.matches/index.js')).then(output('./Element.prototype.matches.js'));
 rollup(input('./src/MouseEvent/index.js')).then(output('./MouseEvent.js'));
 rollup(input('./src/CustomEvent/index.js')).then(output('./CustomEvent.js'));

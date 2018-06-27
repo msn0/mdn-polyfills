@@ -148,7 +148,7 @@ import 'mdn-polyfills/Element.prototype.closest'; // 256 bytes
 ### [Element.prototype.toggleAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/toggleAttribute#Polyfill)
 
 ```js
-import 'mdn-polyfills/Element.prototype.toggleAttribute'; // 256 bytes
+import 'mdn-polyfills/Element.prototype.toggleAttribute'; // 258 bytes
 ```
 
 ### [Element.prototype.matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill)
