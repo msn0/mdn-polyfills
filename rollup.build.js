@@ -48,3 +48,4 @@ rollup(input('./src/Element.prototype.toggleAttribute/index.js')).then(output('.
 rollup(input('./src/Element.prototype.matches/index.js')).then(output('./Element.prototype.matches.js'));
 rollup(input('./src/MouseEvent/index.js')).then(output('./MouseEvent.js'));
 rollup(input('./src/CustomEvent/index.js')).then(output('./CustomEvent.js'));
+rollup(input('./src/Number.isNaN/index.js')).then(output('./Number.isNaN.js'));

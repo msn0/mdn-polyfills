@@ -29,6 +29,7 @@
     "closest",
     "toggleAttribute",
     "matches",
+    "isNaN",
     "Object.assign",
     "Object.create",
     "Array.of",
@@ -54,6 +55,7 @@
     "Element.prototype.matches",
     "MouseEvent",
     "CustomEvent",
+    "Number.isNaN",
     "polyfills",
     "polyfill",
     "mdn"

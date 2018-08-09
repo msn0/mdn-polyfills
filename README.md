@@ -169,6 +169,12 @@ import 'mdn-polyfills/MouseEvent'; // 281 bytes
 import 'mdn-polyfills/CustomEvent'; // 279 bytes
 ```
 
+### [Number.isNaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN#Polyfill)
+
+```js
+import 'mdn-polyfills/Number.isNaN'; // 53 bytes
+```
+
 # License
 
 The mdn-polyfills as a module is licensed under MIT © [Michał Jezierski](https://github.com/msn0)<br/>
