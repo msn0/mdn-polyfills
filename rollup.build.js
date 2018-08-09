@@ -1,6 +1,6 @@
 const babelrc = require('babelrc-rollup').default;
 const babel = require('rollup-plugin-babel');
-const uglify = require('rollup-plugin-uglify');
+const { uglify } = require('rollup-plugin-uglify');
 const rollup = require('rollup').rollup;
 
 const defaultConfig = {
