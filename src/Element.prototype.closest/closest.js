@@ -1,10 +1,9 @@
 export default function(s) {
-    var matches = (this.document || this.ownerDocument).querySelectorAll(s),
-        i,
-        el = this;
+    var el = this;
+    if (!document.documentElement.contains(el)) return null;
     do {
-        i = matches.length;
-        while (--i >= 0 && matches.item(i) !== el) {};
-    } while ((i < 0) && (el = el.parentElement));
-    return el;
+        if (el.matches(s)) return el;
+        el = el.parentElement || el.parentNode;
+    } while (el !== null && el.nodeType === 1);
+    return null;
 };
