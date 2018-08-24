@@ -133,6 +133,12 @@ import 'mdn-polyfills/Node.prototype.append'; // 433 bytes
 import 'mdn-polyfills/Node.prototype.prepend'; // 452 bytes
 ```
 
+### [Node.prototype.after](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after#Polyfill)
+
+```js
+import 'mdn-polyfills/Node.prototype.after'; // 460 bytes
+```
+
 ### [Node.prototype.children](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children#Polyfill)
 
 ```js
