@@ -142,7 +142,7 @@ import 'mdn-polyfills/NodeList.prototype.forEach'; // 158 bytes
 ### [Element.prototype.closest](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill)
 
 ```js
-import 'mdn-polyfills/Element.prototype.closest'; // 241 bytes
+import 'mdn-polyfills/Element.prototype.closest'; // 386 bytes
 ```
 
 ### [Element.prototype.toggleAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/toggleAttribute#Polyfill)
