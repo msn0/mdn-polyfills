@@ -42,6 +42,7 @@ rollup(input('./src/String.prototype.includes/index.js')).then(output('./String.
 rollup(input('./src/Function.prototype.bind/index.js')).then(output('./Function.prototype.bind.js'));
 rollup(input('./src/Node.prototype.append/index.js')).then(output('./Node.prototype.append.js'));
 rollup(input('./src/Node.prototype.prepend/index.js')).then(output('./Node.prototype.prepend.js'));
+rollup(input('./src/Node.prototype.before/index.js')).then(output('./Node.prototype.before.js'));
 rollup(input('./src/Node.prototype.after/index.js')).then(output('./Node.prototype.after.js'));
 rollup(input('./src/Node.prototype.children/index.js')).then(output('./Node.prototype.children.js'));
 rollup(input('./src/NodeList.prototype.forEach/index.js')).then(output('./NodeList.prototype.forEach.js'));
