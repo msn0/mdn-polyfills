@@ -45,6 +45,7 @@ rollup(input('./src/Node.prototype.prepend/index.js')).then(output('./Node.proto
 rollup(input('./src/Node.prototype.before/index.js')).then(output('./Node.prototype.before.js'));
 rollup(input('./src/Node.prototype.after/index.js')).then(output('./Node.prototype.after.js'));
 rollup(input('./src/Node.prototype.remove/index.js')).then(output('./Node.prototype.remove.js'));
+rollup(input('./src/Node.prototype.replaceWith/index.js')).then(output('./Node.prototype.replaceWith.js'));
 rollup(input('./src/Node.prototype.children/index.js')).then(output('./Node.prototype.children.js'));
 rollup(input('./src/NodeList.prototype.forEach/index.js')).then(output('./NodeList.prototype.forEach.js'));
 rollup(input('./src/Element.prototype.closest/index.js')).then(output('./Element.prototype.closest.js'));
