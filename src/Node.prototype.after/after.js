@@ -1,4 +1,4 @@
-export default function before() {
+export default function after() {
   var argArr = Array.prototype.slice.call(arguments),
     docFrag = document.createDocumentFragment();
 

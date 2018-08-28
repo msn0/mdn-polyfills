@@ -136,25 +136,25 @@ import 'mdn-polyfills/Node.prototype.prepend'; // 452 bytes
 ### [Node.prototype.before](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/before#Polyfill)
 
 ```js
-import 'mdn-polyfills/Node.prototype.before'; // 439 bytes
-```
-
-### [Node.prototype.remove](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove#Polyfill)
-
-```js
-import 'mdn-polyfills/Node.prototype.remove'; // 289 bytes
-```
-
-### [Node.prototype.replaceWith](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/replaceWith#Polyfill)
-
-```js
-import 'mdn-polyfills/Node.prototype.replaceWith'; // 730 bytes
+import 'mdn-polyfills/Node.prototype.before'; // 440 bytes
 ```
 
 ### [Node.prototype.after](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after#Polyfill)
 
 ```js
-import 'mdn-polyfills/Node.prototype.after'; // 460 bytes
+import 'mdn-polyfills/Node.prototype.after'; // 461 bytes
+```
+
+### [Node.prototype.remove](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove#Polyfill)
+
+```js
+import 'mdn-polyfills/Node.prototype.remove'; // 290 bytes
+```
+
+### [Node.prototype.replaceWith](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/replaceWith#Polyfill)
+
+```js
+import 'mdn-polyfills/Node.prototype.replaceWith'; // 731 bytes
 ```
 
 ### [Node.prototype.children](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children#Polyfill)
