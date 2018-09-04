@@ -15,6 +15,7 @@ npm i mdn-polyfills --save
 |[Object.assign](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill)|`import 'mdn-polyfills/Object.assign'`|274|
 |[Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create#Polyfill)|`import 'mdn-polyfills/Object.create'`|299|
 |[Object.entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)|`import 'mdn-polyfills/Object.entries'`|151|
+|[Object.values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values)|`import 'mdn-polyfills/Object.values'`|142|
 |[Array.from](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control#Polyfill)|`import 'mdn-polyfills/Array.from'`|788|
 |[Array.of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of#Polyfill)|`import 'mdn-polyfills/Array.of'`|79|
 |[Array.prototype.find](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control#Polyfill)|`import 'mdn-polyfills/Array.prototype.find'`|330|
