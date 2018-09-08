@@ -32,6 +32,8 @@
     "isNaN",
     "Object.assign",
     "Object.create",
+    "Object.entries",
+    "Object.values",
     "Array.of",
     "Array.from",
     "Array.prototype.find",

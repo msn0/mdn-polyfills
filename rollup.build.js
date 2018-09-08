@@ -23,8 +23,8 @@ function output(file) {
 }
 
 rollup(input('./src/Object.assign/index.js')).then(output('./Object.assign.js'));
-rollup(input('./src/Object.entries/index.js')).then(output('./Object.entries.js'));
 rollup(input('./src/Object.create/index.js')).then(output('./Object.create.js'));
+rollup(input('./src/Object.entries/index.js')).then(output('./Object.entries.js'));
 rollup(input('./src/Object.values/index.js')).then(output('./Object.values.js'));
 rollup(input('./src/Array.prototype.find/index.js')).then(output('./Array.prototype.find.js'));
 rollup(input('./src/Array.from/index.js')).then(output('./Array.from.js'));
