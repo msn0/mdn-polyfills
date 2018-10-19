@@ -40,6 +40,7 @@ rollup(input('./src/String.prototype.endsWith/index.js')).then(output('./String.
 rollup(input('./src/String.prototype.padStart/index.js')).then(output('./String.prototype.padStart.js'));
 rollup(input('./src/String.prototype.padEnd/index.js')).then(output('./String.prototype.padEnd.js'));
 rollup(input('./src/String.prototype.includes/index.js')).then(output('./String.prototype.includes.js'));
+rollup(input('./src/String.prototype.trim/index.js')).then(output('./String.prototype.trim.js'));
 rollup(input('./src/Function.prototype.bind/index.js')).then(output('./Function.prototype.bind.js'));
 rollup(input('./src/Node.prototype.append/index.js')).then(output('./Node.prototype.append.js'));
 rollup(input('./src/Node.prototype.prepend/index.js')).then(output('./Node.prototype.prepend.js'));
@@ -52,6 +53,7 @@ rollup(input('./src/NodeList.prototype.forEach/index.js')).then(output('./NodeLi
 rollup(input('./src/Element.prototype.closest/index.js')).then(output('./Element.prototype.closest.js'));
 rollup(input('./src/Element.prototype.toggleAttribute/index.js')).then(output('./Element.prototype.toggleAttribute.js'));
 rollup(input('./src/Element.prototype.matches/index.js')).then(output('./Element.prototype.matches.js'));
+rollup(input('./src/Element.prototype.classList/index.js')).then(output('./Element.prototype.classList.js'));
 rollup(input('./src/MouseEvent/index.js')).then(output('./MouseEvent.js'));
 rollup(input('./src/CustomEvent/index.js')).then(output('./CustomEvent.js'));
 rollup(input('./src/Number.isNaN/index.js')).then(output('./Number.isNaN.js'));
