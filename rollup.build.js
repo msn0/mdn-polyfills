@@ -57,3 +57,4 @@ rollup(input('./src/Element.prototype.classList/index.js')).then(output('./Eleme
 rollup(input('./src/MouseEvent/index.js')).then(output('./MouseEvent.js'));
 rollup(input('./src/CustomEvent/index.js')).then(output('./CustomEvent.js'));
 rollup(input('./src/Number.isNaN/index.js')).then(output('./Number.isNaN.js'));
+rollup(input('./src/HTMLCanvasElement.prototype.toBlob/index.js')).then(output('HTMLCanvasElement.prototype.toBlob.js'));
