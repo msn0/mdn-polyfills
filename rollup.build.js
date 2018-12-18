@@ -28,6 +28,7 @@ rollup(input('./src/Object.entries/index.js')).then(output('./Object.entries.js'
 rollup(input('./src/Object.values/index.js')).then(output('./Object.values.js'));
 rollup(input('./src/Array.prototype.find/index.js')).then(output('./Array.prototype.find.js'));
 rollup(input('./src/Array.from/index.js')).then(output('./Array.from.js'));
+rollup(input('./src/Array.prototype.fill/index.js')).then(output('./Array.prototype.fill.js'));
 rollup(input('./src/Array.prototype.filter/index.js')).then(output('./Array.prototype.filter.js'));
 rollup(input('./src/Array.prototype.findIndex/index.js')).then(output('./Array.prototype.findIndex.js'));
 rollup(input('./src/Array.prototype.forEach/index.js')).then(output('./Array.prototype.forEach.js'));
@@ -56,5 +57,6 @@ rollup(input('./src/Element.prototype.matches/index.js')).then(output('./Element
 rollup(input('./src/Element.prototype.classList/index.js')).then(output('./Element.prototype.classList.js'));
 rollup(input('./src/MouseEvent/index.js')).then(output('./MouseEvent.js'));
 rollup(input('./src/CustomEvent/index.js')).then(output('./CustomEvent.js'));
+rollup(input('./src/Number.isInteger/index.js')).then(output('./Number.isInteger.js'));
 rollup(input('./src/Number.isNaN/index.js')).then(output('./Number.isNaN.js'));
 rollup(input('./src/HTMLCanvasElement.prototype.toBlob/index.js')).then(output('HTMLCanvasElement.prototype.toBlob.js'));
