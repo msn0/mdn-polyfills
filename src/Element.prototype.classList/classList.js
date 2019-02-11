@@ -140,7 +140,7 @@ export default function polyfillClassList(window) {
                 '[class]{x-uCLp/**/:expression(!this.hasOwnProperty("classList")&&window[" uCL"](this))}' //IE7-8
             );
         }
-    })();
+    })(window);
 
     // 3. Patch in unsupported methods in DOMTokenList
     (function (DOMTokenListProto, testClass) {
