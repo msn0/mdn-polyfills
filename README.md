@@ -62,7 +62,7 @@ require('mdn-polyfills/String.prototype.padStart');
 |[Element.prototype.closest](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill)|386|
 |[Element.prototype.toggleAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/toggleAttribute#Polyfill)|243|
 |[Element.prototype.matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill)|133|
-|[Element.prototype.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList#Polyfill)|4433|
+|[Element.prototype.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList#Polyfill)|4434|
 |[MouseEvent](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/MouseEvent#Polyfill)|281|
 |[CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill)|279|
 |[Number.isInteger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger#Polyfill)|106|
