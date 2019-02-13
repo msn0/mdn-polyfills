@@ -30,6 +30,7 @@ Polyfills are also available over a CDN, for example
 
 ```html
 <script src="https://unpkg.com/mdn-polyfills/Object.assign"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdn-polyfills/NodeList.prototype.forEach.js"></script>
 ```
 
 ## Supported polyfills
