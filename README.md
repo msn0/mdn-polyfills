@@ -26,6 +26,12 @@ require('mdn-polyfills/String.prototype.padStart');
 // and so on ...
 ```
 
+Polyfills are also available over a CDN, for example
+
+```html
+<script src="https://unpkg.com/mdn-polyfills/Object.assign"></script>
+```
+
 ## Supported polyfills
 
 |name|size [b]|
