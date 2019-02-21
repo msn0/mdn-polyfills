@@ -1,4 +1,4 @@
-# Polyfills copy-pasted from MDN [![Build Status](https://travis-ci.org/msn0/mdn-polyfills.svg?branch=master)](http://travis-ci.org/msn0/mdn-polyfills) [![npm](https://img.shields.io/npm/dt/mdn-polyfills.svg)](https://www.npmjs.com/package/mdn-polyfills) ![dependencies](https://david-dm.org/msn0/mdn-polyfills.svg)
+# Polyfills copy-pasted from MDN [![Build Status](https://travis-ci.org/msn0/mdn-polyfills.svg?branch=master)](http://travis-ci.org/msn0/mdn-polyfills) [![npm](https://img.shields.io/npm/dt/mdn-polyfills.svg)](https://www.npmjs.com/package/mdn-polyfills) ![dependencies](https://david-dm.org/msn0/mdn-polyfills.svg) [![](https://data.jsdelivr.com/v1/package/npm/mdn-polyfills/badge)](https://www.jsdelivr.com/package/npm/mdn-polyfills)
 
 > [MDN](https://developer.mozilla.org) polyfills. A collection of side-effect ECMAScript modules. Minimized, mangled and extremely small thanks to [Rollup](https://rollupjs.org) - next-generation ES6 module bundler.
 
