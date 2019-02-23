@@ -65,6 +65,7 @@ Polyfills are also available over a CDN, for example
 |[Node.prototype.remove](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove#Polyfill)|290|
 |[Node.prototype.replaceWith](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/replaceWith#Polyfill)|731|
 |[Node.prototype.children](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children#Polyfill)|245|
+|[Node.prototype.firstElementChild](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/firstElementChild#Polyfill_for_IE8_IE9_and_Safari)|262|
 |[NodeList.prototype.forEach](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill)|158|
 |[Element.prototype.closest](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill)|386|
 |[Element.prototype.toggleAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/toggleAttribute#Polyfill)|243|
