@@ -125,7 +125,7 @@ export default function polyfillClassList(window) {
             // Should work in IE8 because Element.prototype instanceof Node is true according to the specs
             window.Object.defineProperty(window.Element.prototype, "classList", {
                 enumerable: 1, get: function (val) {
-                    if (!hasOwnProp.call(ele, "classList")) polyfillClassList(this);
+                    if (!hasOwnProp.call(window.Element.prototype, "classList")) polyfillClassList(this);
                     return this.classList;
                 },
                 configurable: 0, set: function (val) {
