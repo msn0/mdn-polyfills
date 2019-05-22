@@ -1,6 +1,6 @@
 export default function(s) {
     var el = this;
-    if (!document.documentElement.contains(el)) return null;
+
     do {
         if (el.matches(s)) return el;
         el = el.parentElement || el.parentNode;
