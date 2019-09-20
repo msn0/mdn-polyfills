@@ -45,6 +45,7 @@ rollup(input('./src/String.prototype.padEnd/index.js')).then(output('./String.pr
 rollup(input('./src/String.prototype.includes/index.js')).then(output('./String.prototype.includes.js'));
 rollup(input('./src/String.prototype.trim/index.js')).then(output('./String.prototype.trim.js'));
 rollup(input('./src/Function.prototype.bind/index.js')).then(output('./Function.prototype.bind.js'));
+rollup(input('./src/Node.prototype.addEventListener/index.js')).then(output('./Node.prototype.addEventListener.js'));
 rollup(input('./src/Node.prototype.append/index.js')).then(output('./Node.prototype.append.js'));
 rollup(input('./src/Node.prototype.prepend/index.js')).then(output('./Node.prototype.prepend.js'));
 rollup(input('./src/Node.prototype.before/index.js')).then(output('./Node.prototype.before.js'));
