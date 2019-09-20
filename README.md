@@ -60,6 +60,7 @@ Polyfills are also available over a CDN, for example
 |[String.prototype.padEnd](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd#Polyfill)|205|
 |[String.prototype.trim](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim#Polyfill)|121|
 |[Function.prototype.bind](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind#Polyfill)|427|
+|[Node.prototype.addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Compatibility)|1321|
 |[Node.prototype.append](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append#Polyfill)|433|
 |[Node.prototype.prepend](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/prepend#Polyfill)|452|
 |[Node.prototype.before](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/before#Polyfill)|440|
