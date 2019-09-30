@@ -6,6 +6,6 @@ export default function before() {
     var isNode = argItem instanceof Node;
     docFrag.appendChild(isNode ? argItem : document.createTextNode(String(argItem)));
   });
-
-  this.insertBefore(docFrag, this);
+  
+  this.parentNode.insertBefore(docFrag, this);
 }
