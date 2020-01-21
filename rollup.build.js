@@ -59,6 +59,7 @@ rollup(input('./src/Element.prototype.closest/index.js')).then(output('./Element
 rollup(input('./src/Element.prototype.toggleAttribute/index.js')).then(output('./Element.prototype.toggleAttribute.js'));
 rollup(input('./src/Element.prototype.matches/index.js')).then(output('./Element.prototype.matches.js'));
 rollup(input('./src/Element.prototype.classList/index.js')).then(output('./Element.prototype.classList.js'));
+rollup(input('./src/Element.prototype.getAttributeNames/index.js')).then(output('./Element.prototype.getAttributeNames.js'));
 rollup(input('./src/MouseEvent/index.js')).then(output('./MouseEvent.js'));
 rollup(input('./src/CustomEvent/index.js')).then(output('./CustomEvent.js'));
 rollup(input('./src/Number.isInteger/index.js')).then(output('./Number.isInteger.js'));
